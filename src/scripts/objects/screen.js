@@ -76,7 +76,6 @@ const screen = {
     }
 
     if(userData.events.length > 0){
-      console.log(userData.events.length);
       this.userProfile.innerHTML += `<div class="events section">
         <h2>Eventos</h2>
         <ul>${eventsItens}</ul>

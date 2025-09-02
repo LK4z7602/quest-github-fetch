@@ -185,6 +185,20 @@ strong {
   font-weight: bold;
 }
 
+  .repo-info {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .repo-info p {
+    background-color: #dddddd;
+    padding: 4px;
+    border-radius: 3px;
+    color: #000;
+  }
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
@@ -201,19 +215,6 @@ strong {
     text-align: center;
   }
 
-  .repo-info {
-    display: flex;
-    gap: 7px;
-    justify-content: center;
-    margin-top: 10px;
-  }
-
-  .repo-info p {
-    background-color: #dddddd;
-    padding: 4px;
-    border-radius: 3px;
-    color: #000;
-  }
 }
 
 @media (max-width: 768px) {
